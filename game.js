@@ -117,6 +117,7 @@ function checkIsWinner(){
     winMessage = '';
     isCross = false;
     itemArray = new Array(9).fill('empty');
+   window.location.reload();
   }
 
 
